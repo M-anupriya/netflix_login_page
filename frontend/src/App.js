@@ -15,7 +15,7 @@ function App() {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/login", {
+      const res = await fetch("/api", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
